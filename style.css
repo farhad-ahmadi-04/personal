@@ -1,0 +1,147 @@
+/* in the name of Rainbow GOD */
+/* HEADER START */
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+header a{
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 7px;
+}
+header a:hover{
+    color: #8490ff;
+    transition-duration: 0.2s;
+}
+header>.container-header>nav>ul>li>a:{
+    color: #8490ff;
+}
+.container-header{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-header a img{
+    margin-top: 10px;
+}
+.container-header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.container-header nav >ul> li> ul{
+    display: none;
+    /* visibility: hidden; */
+}
+.container-header nav >ul >li :hover >ul{
+  display: block;
+  /* visibility: visible; */
+}
+.container-header nav>ul>li>ul>li>ul{
+    display: none;
+}
+.container-header nav>ul>li>ul>li :hover>ul{
+    display: block;
+}
+/* header End */
+/* main start */
+main{
+    background-color: #f9f9ff;
+    font-family: "Poppins", sans-serif;
+}
+main .container-main{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main-L{
+    margin-right: 15px;
+    margin-top: 150px;
+}
+.main-L span{
+letter-spacing: 3px;
+display: block;
+}
+.main-L p:first-of-type{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 40px 0 40px 0;   
+}
+.main-L p:last-of-type{
+    font-size: 20px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.main-L a{
+    background-color:#62bdfc ;
+    border: 1px solid #62bdfc;
+    border-radius: 2px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main-L>a:hover{
+    box-shadow: 0px 24px #9bcdf173;
+}
+/* main End */
+/* main2 start */
+.main2{
+margin-top: 120px;
+}
+.main2>.container-main2{
+    width: 1110px;
+    height: 383.250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container-main2>.main2-L{
+   padding: 0 15px 0 15px;
+}
+.container-main2 .main2-R{
+    width: 445px;
+    height: 316px;
+}
+.container-main2>.main2-L img{
+    width: 540px;
+    height: max-content;
+}
+.container-main2>.main2-R span{
+    margin-bottom: 30px;
+    display: block;
+}
+.container-main2 .main2-R>p:first-of-type{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.container-main2>.main2-R>p:last-of-type{
+    margin-bottom: 40px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+.container-main2>.main2-R a{
+    background-color: #62bdfc;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 1px;
+}
+.container-main2>.main2-R>a:hover{
+    box-shadow: 0px 24px #9bcdf173;
+}
+/* main2 End */
