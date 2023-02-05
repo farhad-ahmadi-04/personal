@@ -1,10 +1,10 @@
 /* in the name of Rainbow GOD */
-/* HEADER START */
 body{
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
+/* header start */
 header a{
     font-weight: bold;
     padding: 10px;
@@ -16,9 +16,9 @@ header a:hover{
     color: #8490ff;
     transition-duration: 0.2s;
 }
-header>.container-header>nav>ul>li>a:{
+/* header>.container-header>nav>ul>li>a{
     color: #8490ff;
-}
+} */
 .container-header{
     width: 1140px;
     margin: 0 auto;
@@ -93,7 +93,9 @@ display: block;
     font-weight: 500;
 }
 .main-L>a:hover{
-    box-shadow: 0px 24px #9bcdf173;
+    box-shadow: 0px 24px 15px #9bcdf173;
+    transition: all;
+    transition-duration: 0.3s;
 }
 /* main End */
 /* main2 start */
@@ -138,10 +140,96 @@ margin-top: 120px;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 1px;
 }
 .container-main2>.main2-R>a:hover{
-    box-shadow: 0px 24px #9bcdf173;
+    box-shadow: 0px 24px 15px #9bcdf173;
+    transition: all;
+    transition-duration: 0.3s;
 }
 /* main2 End */
+#Services>.container{
+    width: 1140px;
+    height: 650px;
+    margin: 0 auto;
+}
+#Services>.container>div:first-of-type{
+    width:609px ;
+    height: 115px;
+    margin: 0 auto;
+margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#Services>.container>div:first-of-type>p{
+text-align: center;
+opacity: 0.6;
+}
+#Services>.container>.Services{
+    width: 1140px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+#Services>.container>.Services>div>a{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 450;
+    display: block;
+    margin-top: 29px;
+}
+#Services>.container>.Services>div>p{
+    opacity: 0.6;
+}
+#Services>.container>.Services>div{
+    width: 379px ;
+    height: 255px;
+    box-sizing: border-box;
+}
+#Services>.container>.Services>div:hover{
+    color: #8490ff;
+    transition: all;
+    transition-duration: 0.2s;
+}
+#Services>.container>.Services>div>a:hover{
+    color:  #8490ff ;
+    transition: all;
+    transition-duration: 0.2s;
+}
+#Services>.container>.Services>div>img{
+    width: 35px;
+}
+#Services>.container>.Services>div>img:hover{
+    color: #62bdfc;
+}
+#number{
+    background-color: linear-gradient(0deg , #8490ff 0%,  #62bdfc 100%);
+}
+#number>.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+    background-color: #62bdfc;
+}
+#number>.container>div{
+    /* margin: 40px 100px 40px 100px; */
+    width: 200px;
+    margin: 40px;
+    color: #fff;
+}
+#number>.container>div>h1{
+    font-size: 45px;
+}
+#number>.container>div>p{
+    font-size: 16px;
+}
