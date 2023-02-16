@@ -269,6 +269,10 @@ opacity: 0.6;
     margin-bottom: 70px;
     position: relative;
 }
+#projects>.container>div:nth-of-type(2)>ul>li>a{
+    text-decoration: none;
+    color: #000;
+}
 #projects>.container>div:nth-of-type(2)>ul>li>div{
 position: absolute;
 bottom: 0;
@@ -291,6 +295,28 @@ width: 100%;
 #projects>.container>div:nth-of-type(3)>div{
     margin-left: 20px;
     margin-right: 20px;
+    position: relative;
+}
+#projects>.container>div:nth-of-type(3)>div>div>.overlay{
+    position: absolute;
+    bottom: 190px;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    opacity: 0;
+    background-color: #8490ff;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+}
+#projects>.container>div:nth-of-type(3)>div>div>.overlay img{
+    transform: translateY(150px);
+}
+#projects>.container>div:nth-of-type(3)>div>div:hover>.overlay{
+opacity: 0.9;
+/* backface-visibility: hidden; */
 }
 #projects>.container>div:nth-of-type(3)>div>h4{
     font-size: 18px;
@@ -301,16 +327,20 @@ width: 100%;
 /* main5 end................... */
 /* main6 start.................. */
 #feedback-about-me{
-    background-color: #7777771f;
+    background-color: #f9f9ff;
 }
 #feedback-about-me>.container{
     width: 1140px;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
 }
 #feedback-about-me>.container>.about-me{
 text-align: center;
 padding-top: 100px;
+}
+.posts>div>div:hover>h4{
+    color: #8490ff;
+    transition-duration: 0.2s;
 }
 #feedback-about-me>.container>.about-me>h1{
     font-size: 40px;
